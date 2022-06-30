@@ -1,0 +1,53 @@
+.perfil-container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 300px;
+  background-color: #d9d9d9;
+}
+
+.perfil .subtitulo {
+  font-size: 8rem;
+  word-break: normal;
+  color: #a3a3a3;
+  align-self: center;
+  padding: 0px 40px;
+}
+
+.perfil-texto {
+  max-width: 40ch;
+  font-size: 1.2rem;
+  line-height: 1.28;
+  color: #666666;
+}
+
+.perfil-texto strong {
+  color: #141414;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}
