@@ -7,26 +7,22 @@
   gap: 300px;
   background-color: #d9d9d9;
 }
-
 .perfil .subtitulo {
   font-size: 8rem;
   word-break: normal;
   color: #a3a3a3;
   align-self: center;
-  padding: 0px 40px;
+  padding: 0 40px;
 }
-
 .perfil-texto {
   max-width: 40ch;
   font-size: 1.2rem;
   line-height: 1.28;
-  color: #666666;
+  color: #666;
 }
-
 .perfil-texto strong {
   color: #141414;
 }
-
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
@@ -45,7 +41,6 @@
     text-align: left;
   }
 }
-
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
